@@ -38,6 +38,10 @@ blockquote, q {
   quotes: none;
 }
 
+blockquote p{
+    color:black;
+}
+
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
@@ -344,7 +348,7 @@ article img {
 
 .cbp-qtprogress {
   position: absolute;
-  background: #47a3da;
+  background: rgba(0,0,0,0);
   height: 2px;
   width: 0%;
   z-index: 700;
@@ -365,6 +369,7 @@ article img {
   margin-right: 0;
   margin-bottom: 10px;
   margin-left: 0;
+    color: black;
   line-height: 32px;
   background-image: url(../img/quote_mark.png);
   background-repeat: no-repeat;
@@ -394,72 +399,9 @@ article img {
 }
 
 @media all and (min-width: 1600px) {
-	
-  h1#title-1 {
-    font-size: 20px;
-    line-height: 48px;
-    margin-top: 10vh;
-  }
-
-  #title-1 em {
-    font-size: 100px;
-    padding-top: 20px;
-  }
-
-  #title-1 em::before,
-    #title-1 em::after {
-    font-size: 50px;
-    margin-right: 30px;
-    margin-bottom: 0;
-    margin-left: 30px;
-  }
-
-  h3 {
-    font-size: 40px;
-    line-height: 60px;
-  }
-
   h4 {
     font-size: 32px;
     line-height: 40px;
-  }
-}
-
-@media all and (min-width: 960px) and (max-width: 1600px) {
-	
-  .wrap {
-    width: 4em;
-    height: 4em;
-    font-size: 5px;
-    position: relative;
-  }
-
-  .icon {
-    margin-top: 0px;
-    margin-bottom: 25px;
-  }
-
-  .title-2 {
-    font-size: 24px;
-    line-height: 44px;
-    font-weight: 700;
-    padding-top: 20px;
-  }
-
-  .title-2 span {
-    font-size: 40px;
-    font-weight: 100;
-    padding-top: 10px;
-    padding-bottom: 50px;
-  }
-
-  .box66 {
-    width: 90%;
-  }
-
-  h3.title-3 {
-    padding-top: 10px;
-    padding-bottom: 20px;
   }
 }
 
@@ -469,22 +411,7 @@ article img {
   }
 }
 
-@media all and (min-width: 960px) and (max-width: 1280px) {
-	
-  #title-sub1 {
-    font-size: 24px;
-  }
-
-  #title-sub1::before,
-#title-sub1::after {
-    font-size: 20px;
-  }
-}
-
 @media all and (max-width: 960px) {
-  .vito {
-    display: none !important;
-  }
 
   .bghwhite {
     border-left-width: 5px;
@@ -492,87 +419,10 @@ article img {
     border-left-color: #0099ff;
     width: 50%;
   }
-
-  h1#title-1 {
-    font-size: 20px;
-    margin-top: 8vh;
-  }
-
-  #title-1 em {
-    font-size: 70px;
-    padding-top: 0;
-  }
-
-  #title-1 em::before, #title-1 em::after {
-    content: "";
-    line-height: 14px;
-  }
-
-  .social-btn-container .social-btn-box {
-    margin: 5px;
-  }
-
-  .social-btn-container .social-btn-box {
-    width: 40px;
-    height: 40px;
-
-  }
-
-  .social-btn-container .social-btn-box a {
-    font-size: 14px;
-    height: 60px;
-    line-height: 60px;
-    width: 60px;
-  }
-
-  .title-2 {
-    font-size: 24px;
-    line-height: 44px;
-    font-weight: 700;
-    padding-top: 20px;
-  }
-
-  .title-2 span {
-    font-size: 40px;
-    font-weight: 100;
-    padding-top: 10px;
-    padding-bottom: 50px;
-  }
-
-  .title.overtext h4 {
-    font-size: 30px;
-    line-height: 40px;
-  }
-
-  .box66 {
-    width: 80%;
-  }
-
-  .border-right {
-    border-right: none;
-    text-align: left;
-  }
-
-  .spec-l, .spec-r {
-    padding-right: 5%;
-    padding-left: 5%;
-  }
-}
-
-@media all and (min-width: 768px) and (max-width: 960px) {
-  .hack960 {
-    width: 720px;
-    margin-right: auto;
-    margin-left: auto;
-  }
 }
 
 @media all and (max-width: 768px) {
 	
-  .hero {
-    background-image: url(../img/istria768.jpg);
-  }
-
   .absomid {
     width: 94%;
   }
@@ -589,71 +439,11 @@ article img {
   article {
     height: 300px;
   }
-
-  .modal {
-    width: 90%;
-    padding: 30px;
-    margin-right: auto;
-    margin-left: auto;
-  }
 }
 
 @media all and (max-width: 600px) {
-	
-  .social-btn-container {
-    width: 320px;
-    bottom: 30%;
-  }
-
-  .paraw {
-    font-size: 40px;
-  }
-
-  #title-sub1 {
-    font-size: 16px;
-    padding-bottom: 20px;
-  }
-
-  #title-sub1::before,
-#title-sub1::after {
-    font-size: 12px;
-  }
-
-  #title-sub2 {
-    font-size: 48px;
-    padding-bottom: 40px;
-  }
 
   .absomid-cbp {
     width: 470px;
-  }
-}
-
-@media all and (max-width: 480px) {
-  h1#title-1 {
-    font-size: 16px;
-    margin-top: 6vh;
-  }
-
-  #title-1 em {
-    font-size: 36px;
-  }
-
-  .box66 {
-    width: 90%;
-  }
-
-  #title-sub1 {
-    font-size: 13px;
-    padding-bottom: 20px;
-  }
-
-  #title-sub2 {
-    font-size: 32px;
-    padding-bottom: 40px;
-  }
-
-  .absomid-cbp {
-    width: 320px;
   }
 }
