@@ -759,8 +759,18 @@ label.error {
 /*buttons*/
 
 #buttons{
-    background: #F79500;
+    background: #fff;
     padding:10px;
     text-align: center;
     margin:20px;
+    font-size: 20px;
+    border:solid 2px #F79500;
+    transition: background 2s, border 2s, color 1s;
+    -webkit-transition: background 2s, border 2s, color 1s;
+}
+
+#buttons:hover{
+    background:#F79500;
+    border:solid 2px #fff;
+    color:#fff;
 }
