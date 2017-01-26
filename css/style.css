@@ -183,36 +183,7 @@ a.scroll::after {
   text-align: center;
   display: block;
   margin-bottom: 50px;
-}
-
-/* FA ICON GEAR */
-.fa-spin-reverse {
-  -webkit-animation: fa-spin-reverse 2s infinite linear;
-  animation: fa-spin-reverse 2s infinite linear;
-}
-
-@-webkit-keyframes fa-spin-reverse {
-  100% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-
-  0% {
-    -webkit-transform: rotate(359deg);
-    transform: rotate(359deg);
-  }
-}
-
-@keyframes fa-spin-reverse {
-  100% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-
-  0% {
-    -webkit-transform: rotate(359deg);
-    transform: rotate(359deg);
-  }
+    box-sizing: border-box;
 }
 
 
@@ -247,6 +218,7 @@ a.scroll::after {
   border-bottom-style: solid;
   border-top-color: #E0E1E1;
   border-bottom-color: #E0E1E1;
+  box-sizing: border-box;
 }
 /* black and white image */
 .blackwhiteimg {

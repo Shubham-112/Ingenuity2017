@@ -32,7 +32,27 @@ a {
 }
 
 
-/*glow*/
+/*video*/
+.vertical-alignment-helper {
+                    display:table;
+                    height: 100%;
+                    width: 100%;
+                    pointer-events:none; /* This makes sure that we can still click outside of the modal to close it */
+                }
+                .vertical-align-center {
+                    /* To center vertically */
+                    display: table-cell;
+                    vertical-align: middle;
+                    pointer-events:none;
+                }
+                .modal-content {
+                    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+                    width:inherit;
+                    height:inherit;
+                    /* To center horizontally */
+                    margin: 0 auto;
+                    pointer-events: all;
+                }
 
 
 img.logo:hover{
@@ -739,8 +759,18 @@ label.error {
 /*buttons*/
 
 #buttons{
-    background: #F79500;
+    background: #fff;
     padding:10px;
     text-align: center;
     margin:20px;
+    font-size: 20px;
+    border:solid 2px #F79500;
+    transition: background 2s, border 2s, color 1s;
+    -webkit-transition: background 2s, border 2s, color 1s;
+}
+
+#buttons:hover{
+    background:#F79500;
+    border:solid 2px #fff;
+    color:#fff;
 }
