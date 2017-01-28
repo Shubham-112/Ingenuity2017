@@ -52,6 +52,14 @@
 </head>
 
 <body id="body" style="overflow-x:hidden;width:100%;background:#111111">	
+<!--    Preloader -->
+    <div class="spinner">
+  <div class="rect1"></div>
+  <div class="rect2"></div>
+  <div class="rect3"></div>
+  <div class="rect4"></div>
+  <div class="rect5"></div>
+</div>
         <!-- 
         Fixed Navigation
         ==================================== -->
@@ -1068,6 +1076,19 @@
 				});
 			});
 		</script>
+    <script>
+    $(document).ready(function(){
+        //Preloader
+        $(window).load(function(){
+            preloaderFadeOutTime = 500;
+            function hidePreloader(){
+                var preloader = $('.spinner-wrapper');
+                preloader.fadeOut(preloaderFadeOutTime);
+            }
+            hidePreloader();
+            }
+        });
+    });</script>
     </body>
     <footer id="footer" class="footer">
             
