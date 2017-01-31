@@ -17,12 +17,8 @@ var ringer = {
       s: 1000,
       max: 60
     },
-    'MICROSEC': {
-      s: 10,
-      max: 100
-    }
    },
-  r_count: 5,
+  r_count: 4,
   r_spacing: 16, // px
   r_size: 100, // px
   r_thickness: 3, // px
