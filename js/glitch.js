@@ -18,7 +18,7 @@ var ringer = {
       max: 60
     },
    },
-  r_count: 5,
+  r_count: 4,
   r_spacing: 16, // px
   r_size: 100, // px
   r_thickness: 3, // px
