@@ -45,6 +45,20 @@
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script>
+    $(document).ready(function(){
+        //Preloader
+        $(window).load(function(){
+            preloaderFadeOutTime = 500;
+            function hidePreloader(){
+                var preloader = $('.spinner-wrapper');
+                preloader.fadeOut(preloaderFadeOutTime);
+            }
+            hidePreloader();
+        });
+        });
+
+    </script>
 </head>
 
 <body id="body" style="overflow-x:hidden;width:100%;background:#111111">	
@@ -113,7 +127,7 @@
 				<!-- End Indicators bullet -->				
 				
 				<!-- Wrapper for slides -->
-				<div class="carousel-inner" role="listbox">
+				<div class="carousel-inner">
 					
 					<!-- single slide -->
 					<div class="item active" style="background-image: url(img/ingenuity2.jpg);" data-toggle="modal" data-target="#updateCreditCard">   
@@ -335,26 +349,16 @@
 							<h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">
                 <span>
                      <img class="logo img-responsive" style="height:350px; width:450px;margin:0 auto ;text-align:center;margin-top:-230px" src="img/logow.png">
-                      <div class="modal fade" id="updateCreditCard" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="vertical-alignment-helper">
-                            <div class="modal-dialog vertical-align-center">
-                                <div class="modal-content">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/P8jc63Fcbvc" frameborder="0" align="middle" allowfullscreen></iframe>
-                                </div>
-                            </div>
-                        </div>
-                      </div>
-                    </img>
                 </span>
               </h2>
 
 							<h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color"></span>72 incredible hours !</h3>
 							<p data-wow-duration="1000ms" class="wow slideInRight animated">one INGENIOUS fest.</p>
 							
-							<ul class="social-links text-center">
+							<!--<ul class="social-links text-center">
 								<li><a href="https://twitter.com/ingeNUity_Fest"><i class="fa fa-twitter fa-lg"></i></a></li>
 								<li><a href="https://www.facebook.com/ingenuity.niituniversity/"><i class="fa fa-facebook fa-lg"></i></a></li>
-<!--								<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>-->
+								<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>-->
 <!--								<li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>-->
 							</ul>
 						</div>
@@ -362,7 +366,7 @@
 					<!-- end single slide -->
 					
 					<!-- single slide -->
-					<div class="item" style="background-image: url(img/ingenuity1.jpg);">
+<!--					<div class="item" style="background-image: url(img/ingenuity1.jpg);">
                         <div class="stars">
                           <div class="container">
                             <div class="star"></div>
@@ -579,11 +583,16 @@
 							<h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow bounceInDown animated"><span><img class="logo img-responsive" style="height:350px; width:450px;margin:0 auto ;text-align:center;margin-top:-230px;" src="img/logow.png"></span></h2>
 							<h3 data-wow-duration="500ms" class="wow slideInLeft animated"><span class="color">72</span> incredible hours</h3>
 							<p data-wow-duration="500ms" class="wow slideInRight animated">One INGENIOUS fest</p>
+
+
+
+-->
+
 							
-							<ul class="social-links text-center">
+<!--							<ul class="social-links text-center">
 								<li><a href="https://twitter.com/ingeNUity_Fest"><i class="fa fa-twitter fa-lg"></i></a></li>
 								<li><a href="https://www.facebook.com/ingenuity.niituniversity/"><i class="fa fa-facebook fa-lg"></i></a></li>
-<!--								<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>-->
+							<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>-->
 <!--								<li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>-->
 							</ul>
 						</div>
@@ -730,45 +739,9 @@
 					<div class="row number-counters">
 						
 						<div class="sec-title text-center mb50 wow rubberBand animated" data-wow-duration="1000ms">
-							<h2>Some Facts</h2>
-							<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
-						</div>
-						
-						<!-- first count item -->
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
-							<div class="counters-item">
-								<i class="fa fa-clock-o fa-3x"></i>
-								<strong data-to="3200">0</strong>
-								<!-- Set Your Number here. i,e. data-to="56" -->
-								<p>Hours of Work</p>
+							<h2>Watch our Teaser</h2>
 							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
-							<div class="counters-item">
-								<i class="fa fa-users fa-3x"></i>
-								<strong data-to="120">0</strong>
-								<!-- Set Your Number here. i,e. data-to="56" -->
-								<p>Satisfied Clients</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
-							<div class="counters-item">
-								<i class="fa fa-rocket fa-3x"></i>
-								<strong data-to="360">0</strong>
-								<!-- Set Your Number here. i,e. data-to="56" -->
-								<p> Projects Delivered </p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
-							<div class="counters-item">
-								<i class="fa fa-trophy fa-3x"></i>
-								<strong data-to="6454">0</strong>
-								<!-- Set Your Number here. i,e. data-to="56" -->
-								<p>Awards Won</p>
-							</div>
-						</div>
-						<!-- end first count item -->
-				
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/P8jc63Fcbvc" frameborder="0" align="middle" allowfullscreen></iframe>    
 					</div>
 				</div>
 			</div>
@@ -1105,19 +1078,7 @@
 				});
 			});
 		</script>
-    <script>
-    $(document).ready(function(){
-        //Preloader
-        $(window).load(function(){
-            preloaderFadeOutTime = 500;
-            function hidePreloader(){
-                var preloader = $('.spinner-wrapper');
-                preloader.fadeOut(preloaderFadeOutTime);
-            }
-            hidePreloader();
-            }
-        });
-    });</script>
+  
     </body>
     <footer id="footer" class="footer">
             
