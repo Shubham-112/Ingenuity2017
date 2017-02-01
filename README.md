@@ -16,6 +16,11 @@ Check out our Facebook page - [https://www.facebook.com/ingenuity.niituniversity
 Follow us on Twitter - [https://twitter.com/ingeNUity_Fest](https://twitter.com/ingeNUity_Fest)
 
 
+## Event Teaser
+
+Check out our Awesome Teaser today - [https://www.youtube.com/watch?v=P8jc63Fcbvc](https://www.youtube.com/watch?v=P8jc63Fcbvc)
+
+
 ## Event Poster 
 
 Check out our Awesome Poster!!
