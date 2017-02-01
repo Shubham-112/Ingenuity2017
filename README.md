@@ -1,4 +1,4 @@
-#✨✨ Ingenuity-2017 #✨✨
+#✨✨ Ingenuity-2017 ✨✨
 
 <img src ="img/md.png" />
 
